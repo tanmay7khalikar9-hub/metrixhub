@@ -61,7 +61,17 @@ public class DriversPage extends CommonMethods {
 
 	public void portNo() {
 
-		enterData("port_No", "td_pollingRate");
+		enterData("port_No", "td_portNo");
+	}
+	
+	public void frequency() {
+		
+		enterData("pollingRate" , "td_pollingRate");
+	}
+	
+	public void driverSubmit() {
+		
+		clickWebElement("driversubmit_btn");
 	}
 
 }

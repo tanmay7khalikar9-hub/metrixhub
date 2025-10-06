@@ -49,6 +49,11 @@ public class DashboardTest extends BaseTest {
 		dp.portNo();
 		Thread.sleep(1500);
 		
+		dp.frequency();
+		Thread.sleep(1500);
+		
+		dp.driverSubmit();
+		Thread.sleep(1500);
 	}
 	
 	
