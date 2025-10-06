@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-06T10:52:44 IST" name="Surefire suite" finished-at="2025-10-06T10:53:18 IST" duration-ms="33554">
+    <groups>
+    </groups>
+    <test started-at="2025-10-06T10:52:44 IST" name="Surefire test" finished-at="2025-10-06T10:53:18 IST" duration-ms="33554">
+      <class name="com.metrixhub.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.metrixhub.tests.LoginTest@418e7838]" started-at="2025-10-06T10:53:09 IST" name="setUp" finished-at="2025-10-06T10:53:12 IST" duration-ms="3690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.metrixhub.tests.LoginTest@418e7838]" started-at="2025-10-06T10:53:12 IST" name="loginTest" finished-at="2025-10-06T10:53:18 IST" duration-ms="5328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.metrixhub.tests.LoginTest@418e7838]" started-at="2025-10-06T10:53:18 IST" name="tearDown" finished-at="2025-10-06T10:53:18 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.metrixhub.tests.LoginTest -->
+      <class name="com.metrixhub.tests.DashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.metrixhub.tests.DashboardTest@3c419631]" started-at="2025-10-06T10:52:44 IST" name="setUp" finished-at="2025-10-06T10:52:50 IST" duration-ms="5709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dashboardtest()[pri:0, instance:com.metrixhub.tests.DashboardTest@3c419631]" started-at="2025-10-06T10:52:50 IST" name="dashboardtest" finished-at="2025-10-06T10:53:08 IST" duration-ms="17773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardtest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.metrixhub.tests.DashboardTest@3c419631]" started-at="2025-10-06T10:53:08 IST" name="tearDown" finished-at="2025-10-06T10:53:09 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.metrixhub.tests.DashboardTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
